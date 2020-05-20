@@ -1,0 +1,52 @@
+header {
+    position: relative;
+
+    .headerContainer {
+        img {
+            width: 100vw;
+        }
+
+        .headerContents {
+            position: absolute;
+            bottom: 10%;
+            left: 5%;
+            width: 60%;
+            height: 50%;
+            color: white;
+
+        }
+
+        .btn {
+            margin-top: 3%;
+
+            button {
+                padding: 1.5% 4%;
+                margin-left: 1rem;
+                border: none;
+                border-radius: 3%;
+                background: #111111;
+                color: rgb(212, 212, 212);
+                opacity: 0.5;
+                border-radius: 5%;
+                transition: all 0.1s ease-in;
+                cursor: pointer;
+
+                &:hover {
+                    transform: scale(1.1);
+                    color: white;
+                    opacity: 1;
+                }
+
+                &:first-child {
+                    background: red;
+                }
+
+                span {
+                    font-size: 12px;
+                    font-weight: 600;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
