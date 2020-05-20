@@ -1,10 +1,13 @@
 import React from "react";
 import "./App.css";
 import Api from "./container/api";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <Api />
+      <Nav />
+      <Footer />
     </div>
   );
 }

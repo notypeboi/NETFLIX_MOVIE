@@ -1,0 +1,41 @@
+body {
+    background: white;
+}
+
+.navigation {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    transition: all 0.5s ease-in;
+
+    background: #111111;
+
+    &_container {
+        margin-left: 3.8rem;
+        color: white;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        position: relative;
+        transition: all 0.3s ease-in;
+        cursor: pointer;
+    }
+
+    .logo {
+        height: 2.8rem;
+        cursor: pointer;
+    }
+
+    .icons {
+        margin: 0 3.8rem 0 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: white;
+        position: absolute;
+        width: 30%;
+        right: 0;
+        cursor: pointer;
+    }
+
+}
